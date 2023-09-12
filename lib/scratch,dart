@@ -1,0 +1,26 @@
+// InkWell(
+//             onTap: () async {
+//               const url = "https://github.com/Bimcodes";
+//               Uri urlString = Uri.parse(url);
+//               if (await canLaunchUrl(urlString)) {
+//                 await launchUrl(urlString); //github.com/Bimcodes");
+//               } else {
+//                 throw 'Could not launch $url';
+//               }
+//             },
+//             child: Container(
+//               padding: EdgeInsets.all(16.0),
+//               decoration: BoxDecoration(
+//                 color: Colors.blue, // Customize button color
+//                 borderRadius:
+//                     BorderRadius.circular(8.0), // Customize button shape
+//               ),
+//               child: Text(
+//                 'Visit GitHub',
+//                 style: TextStyle(
+//                   color: Colors.white, // Customize text color
+//                   fontSize: 18.0, // Customize text size
+//                 ),
+//               ),
+//             ),
+//           ),
