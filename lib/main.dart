@@ -46,6 +46,19 @@ class _MyHomePageState extends State<MyHomePage> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
+              const SizedBox(
+                height: 70,
+              ),
+              const Center(
+                child: CircleAvatar(
+                    radius: 70,
+                    child: Image(
+                      image: AssetImage('assets/me_.png'),
+                    )),
+              ),
+              const SizedBox(
+                height: 15,
+              ),
               Padding(
                 padding: const EdgeInsets.only(bottom: 10),
                 child: Container(
@@ -99,7 +112,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
               ),
               Padding(
-                padding: const EdgeInsets.only(top: 100, left: 90, right: 30),
+                padding: const EdgeInsets.only(top: 50, left: 90, right: 30),
                 child: ElevatedButton(
                   onPressed: () {
                     // Replace 'https://github.com/YourGitHubUsername' with your GitHub URL
